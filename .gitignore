@@ -1,0 +1,52 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights and datasets
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+ai-engine/datasets/raw/*
+ai-engine/datasets/processed/*
+ai-engine/models/*
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Logs
+*.log
